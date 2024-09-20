@@ -1,4 +1,4 @@
-= Sample Application that demonstrates AIBatchTools libaries
+= Sample Application that demonstrates AIBatchTools libraries
 
 The purpose of this project is to demonstrate the usage of the TikaItemReader, VectorStoreItemReader and their builders.
 
