@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: ragbatchone
+  ai:
+    vectorstore:
+      mongodb:
+        initialize-schema: true
+        collection-name: vectorcollection
+
+  data:
+    mongodb:
+      database: vectordb
+  main:
+    web-application-type: none
+
+  batch:
+    jdbc:
+      initialize-schema: always
+
+logging:
+  level:
+    org.springframework.cloud.task: debug
